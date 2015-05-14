@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="DrawAllocation" severity="ignore">
+        <ignore path="src/com/kobe/viewdev/CircleImageView.java" />
+    </issue>
+    <issue id="InlinedApi" severity="ignore" />
+    <issue id="NewApi" severity="ignore" />
+</lint>
