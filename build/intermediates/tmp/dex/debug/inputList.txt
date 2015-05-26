@@ -1,0 +1,2 @@
+/Users/kobe-mac/MyAndroid/Galaxy/build/intermediates/classes/debug
+/Users/kobe-mac/MyAndroid/Galaxy/build/intermediates/pre-dexed/debug/android-support-v4-374e49fc853ac705bbbd6bba333740583d2869d5.jar

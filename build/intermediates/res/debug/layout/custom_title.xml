@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="138dp"
+    android:background="#03a9f5" >
+
+    <TextView
+        android:id="@+id/ivTitleName"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="81dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="推荐好友" />
+
+    <TextView
+        android:id="@+id/title_name_en"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivTitleName"
+        android:layout_marginTop="104dp"
+        android:layout_marginRight="150dp"
+        android:alpha="0.54"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="75dp"
+        android:padding="10dp"
+        android:background="@null" />
+
+    <TextView
+        android:id="@+id/answerScore"
+        android:layout_width="68dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+</RelativeLayout><!-- From: file:/Users/kobe-mac/MyAndroid/Galaxy/res/layout/custom_title.xml -->
